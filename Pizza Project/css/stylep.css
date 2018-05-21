@@ -1,0 +1,99 @@
+h1 {
+	font:bold 12px/30px Georgia, serif;
+	color:red;
+	
+}
+
+h3 {
+	color:red;
+}
+
+div{
+	text-align: center;
+}
+.menu {
+	border-style: solid;
+	border-color: orange;
+	border-radius: 5px;
+	flex: 1 150px;
+	border-width: 5px;
+	padding-bottom:250px;
+	padding-left: 0px;
+	margin:auto;
+	width: 35%;
+	height: 150px;
+	background-color:#D0D0D0;
+}
+
+#cscfrm {
+	margin:auto;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: stretch;
+	border-radius:25px;
+}
+
+.menucsc {
+	border-style: solid;
+	border-color: orange;
+	border-radius: 5px;
+	flex: 1 150px;
+	border-width: 5px;
+	padding-bottom:200px;
+	padding-left: 0px;
+	margin:auto;
+	width: 35%;
+	height: 150px;
+	background-color:#D0D0D0;
+}
+
+.controls {
+	display:flex;
+	justify-content: space-between;
+	margin: auto;
+
+}
+
+.button {
+	cursor: pointer;
+	color: red;
+	width: 100%;
+	display: block;
+	border-radius:5px;
+	border-color: orange;
+	border-style: dotted;
+	margin:auto;
+	background-color:#D0D0D0;
+	padding-top: 25px; 
+	font-weight: bold;
+}
+
+#cart {
+	border-style :dotted;
+	border-color: orange;
+	margin:auto;
+	width:100%;
+	border-radius:5px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: stretch;
+	flex-wrap: wrap;
+	background-color:#D0D0D0;
+	padding-left: 50px;
+	flex-direction: row;
+}
+
+#showText {
+	margin:auto ;
+}
+
+#showText2 {
+	margin:auto;
+}
+
+#totalPrice {
+	margin:auto;
+
+}
